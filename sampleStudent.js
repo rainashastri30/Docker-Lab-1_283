@@ -25,7 +25,7 @@ app.set('view engine', 'ejs');
 //app.use(express.static(path.join(__dirname, 'public')));
 
 var Schema = mongoose.Schema;
-var db = mongoose.connect('54.153.97.209:49150/students');
+var db = mongoose.connect('54.153.97.209:27017/students');
 
 // Make our db accessible to our router
 app.use(function(req,res,next){
